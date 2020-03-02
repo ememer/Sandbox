@@ -196,29 +196,100 @@ body {
     justify-content: center;
     max-height: 1400px;
     background-color: #F7F7F7;
-    border: 1px solid red;
+
 }
 
 .tSection__column {
     width: 1300px;
+    padding: 0px 85px;
+
+
 }
 
 .tSection__box1 {
-    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    height: 370px;
     width: 1130px;
-    border: 1px solid red;
-    background-color: var(--secondary-color);
-    margin-top: 100px;
-    border-radius: 3px;
-}
 
-.tSection__box2 {
-    height: 300px;
-    width: 1130px;
-    border: 1px solid red;
     background-color: var(--secondary-color);
     margin-top: 30px;
     border-radius: 3px;
+}
+
+.tSection__box1Content {
+
+    width: 440px;
+    margin: 61px 0px 61px 0px;
+    padding: 35px;
+}
+
+.tSection__box1Content h2 {
+    margin-bottom: 30px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.tSection__box1Content p {
+    margin-bottom: 30px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+
+.tSection__box1Photo {
+    width: 630px;
+    background-image: url(./../assets/Macbook.png);
+    background-size: 387px 220px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.tSection__box2 {
+    display: flex;
+    justify-content: space-between;
+    height: 370px;
+    width: 1130px;
+    background-color: var(--secondary-color);
+    margin-top: 30px;
+    border-radius: 3px;
+}
+
+.tSection__box2Content {
+
+    width: 440px;
+    margin: 61px 0px 61px 0px;
+    padding: 35px;
+}
+
+.tSection__box2Content h2 {
+    margin-bottom: 30px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.tSection__box2Content p {
+    margin-bottom: 30px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+
+.tSection__box2Photo {
+
+    width: 630px;
+    background-image: url(./../assets/iPhone.png);
+    background-size: 426px 328px;
+    background-repeat: no-repeat;
+    margin: 30px;
+
 }
 
 .tSection__photoBox {
@@ -229,22 +300,48 @@ body {
 
 .tSection__box3 {
 
-    height: 300px;
+    height: 370px;
     width: 630px;
-    border: 1px solid red;
+
     background-color: var(--secondary-color);
     margin-top: 30px;
     margin-bottom: 100px;
     border-radius: 3px;
 }
 
-.tSection__photo {
-    height: 300px;
+.tSection__box3Content {
+
     width: 440px;
-    border: 1px solid red;
-    background-color: var(--secondary-color);
+    margin: 61px 0px 61px 0px;
+    padding: 35px;
+}
+
+.tSection__box3Content h2 {
+    margin-bottom: 30px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.tSection__box3Content p {
+    margin-bottom: 30px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.tSection__photo {
+    height: 370px;
+    width: 440px;
+    padding: 10px;
+
+    background: url('./../assets/Trumpet.png') no-repeat center/ 295px 280px;
+    background-position: bottom;
+    background-color: #55DFB4;
     margin: 30px 0px 100px 60px;
     border-radius: 3px;
+
 }
 
 /* FOURTH SECTION */
@@ -252,10 +349,169 @@ body {
 .ffSection {
     display: flex;
     justify-content: center;
+    height: 1200px;
 }
 
 .ffSection__wrapper {
-    height: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1300px;
     background-color: var(--secondary-color);
+}
+
+.ffSection__wrapper h2 {
+    display: inline-block;
+    width: 1300px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+.ffSection__firstContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 372px;
+    height: 460px;
+    border: 2px solid #FB3B64;
+    border-radius: 18px;
+    margin: 0px 59px 0px 0px;
+
+
+}
+
+.ffSection__firstContent h2 {
+    margin: 34px 0px;
+    width: 400px;
+}
+
+.ffSection__firstContent h3 {
+    width: 400px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    color: #FB3B64;
+    font-size: 46px;
+
+
+}
+
+.ffSection__firstContent ul {
+    text-align: center;
+    line-height: 40px;
+    margin: 60px 0px 80px 0px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+
+}
+
+.ffSection__secondContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 372px;
+    height: 500px;
+    border: 2px solid #07ACE6;
+    border-radius: 18px;
+
+
+}
+
+.ffSection__secondContent h2 {
+    margin: 34px 0px;
+    width: 400px;
+
+}
+
+.ffSection__secondContent h3 {
+    width: 400px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    color: #07ACE6;
+    font-size: 46px;
+    line-height: 15px;
+}
+
+.ffSection__secondContent h3::after {
+    display: inline-block;
+    content: 'Limited offer';
+    text-align: center;
+    width: 400px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.ffSection__secondContent ul {
+    text-align: center;
+    line-height: 40px;
+    margin: 60px 0px 80px 0px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+
+.ffSection__thirdContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 372px;
+    height: 460px;
+    border: 2px solid #55DFB4;
+    border-radius: 18px;
+    margin: 0px 0px 0px 59px;
+
+}
+
+.ffSection__thirdContent h2 {
+    margin: 34px 0px;
+    width: 400px;
+}
+
+.ffSection__thirdContent h3 {
+    width: 400px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    color: #55DFB4;
+    font-size: 46px;
+    line-height: 15px;
+
+
+}
+
+.ffSection__thirdContent h3::after {
+    display: inline-block;
+    content: 'Limited offer';
+    text-align: center;
+    width: 400px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.ffSection__thirdContent ul {
+    text-align: center;
+    line-height: 40px;
+    margin: 60px 0px 80px 0px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+
+}
+
+.ffSection__fourthContent {
+    width: 890px;
+    height: 375px;
     border: 1px solid red;
+
 }
