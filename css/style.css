@@ -371,6 +371,9 @@ body {
     margin-top: 100px;
 }
 
+/**********************************/
+/*              BOX 1             */
+/**********************************/
 .ffSection__firstContent {
     display: flex;
     justify-content: center;
@@ -410,6 +413,10 @@ body {
 
 }
 
+
+/**********************************/
+/*              BOX 2             */
+/**********************************/
 .ffSection__secondContent {
     display: flex;
     justify-content: center;
@@ -458,6 +465,11 @@ body {
     font-weight: 400;
 }
 
+
+
+/**********************************/
+/*              BOX 3             */
+/**********************************/
 
 .ffSection__thirdContent {
     display: flex;
